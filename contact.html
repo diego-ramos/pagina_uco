@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact - In Case You Need Help</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+.developer-credit {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  font-size: 12px;
+  color: rgba(0,0,0,0.3);
+  font-weight: 500;
+  pointer-events: none; /* Para que no interfiera con clics */
+  z-index: 1000;
+}
+body{
+  font-family:'Poppins',sans-serif;
+  background:#fff0f5;
+  color:#333;
+  margin:0;
+  padding:0;
+}
+header{
+  background:linear-gradient(90deg,#ff7eb9,#ff65a3);
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:1rem 2rem;
+}
+header h1{
+  color:#fff;
+  font-size:2rem;
+  font-weight:700;
+}
+nav a{
+  color:#fff;
+  margin-left:1.5rem;
+  font-weight:500;
+  transition:0.3s;
+}
+nav a:hover{
+  color:#ffe4ec;
+}
+section{
+  padding:3rem 1rem;
+  text-align:center;
+}
+form{
+  background:#ffe4ec;
+  padding:2rem;
+  border-radius:20px;
+  max-width:500px;
+  margin:auto;
+  box-shadow:0 10px 25px rgba(0,0,0,0.1);
+}
+input,textarea{
+  width:100%;
+  padding:0.8rem;
+  margin:0.5rem 0;
+  border:none;
+  border-radius:10px;
+  font-size:1rem;
+}
+button{
+  background:linear-gradient(90deg,#ff7eb9,#ff65a3);
+  color:#fff;
+  border:none;
+  padding:0.8rem 1.2rem;
+  border-radius:10px;
+  font-weight:600;
+  cursor:pointer;
+  transition:0.3s;
+}
+button:hover{
+  background:linear-gradient(90deg,#ff65a3,#ff7eb9);
+}
+footer{
+  margin-top:3rem;
+  padding:2rem;
+  background:linear-gradient(90deg,#ff7eb9,#ff65a3);
+  color:#fff;
+  text-align:center;
+  border-radius:20px;
+}
+footer a{
+  color:#fff;
+  margin:0 0.5rem;
+}
+</style>
+</head>
+<body>
+
+<header>
+<h1>Contact Us</h1>
+<nav>
+<a href="index.html">Home</a>
+<a href="girls.html">Girls Kit</a>
+<a href="boys.html">Boys Kit</a>
+<a href="about.html">About Us</a>
+</nav>
+</header>
+
+<section>
+<h2>Get in Touch</h2>
+<p>Have questions or want to order a kit? Fill out the form below and we’ll get back to you as soon as possible!</p>
+<form action="https://formspree.io/f/mldpdjqg" method="POST">
+  <input type="text" name="name" placeholder="Your Name" required>
+  <input type="email" name="email" placeholder="Your Email" required>
+  <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+  <button type="submit">Send Message</button>
+</form>
+</section>
+
+<section style="margin-top:3rem;">
+<h2>Other Ways to Contact Us</h2>
+<p>Email: <a href="mailto:info@incareyouneedhelp.com">info@incareyouneedhelp.com</a></p>
+<p>Phone: +1 (555) 123-4567</p>
+<p>Follow us: <a href="#">Instagram</a> | <a href="#">Facebook</a> | <a href="#">TikTok</a></p>
+</section>
+
+<footer>
+<p>&copy; 2025 In Case You Need Help. All rights reserved.</p>
+</footer>
+<div class="developer-credit">Developed by Ana Sofía Ramos</div>
+</body>
+</html>
+
